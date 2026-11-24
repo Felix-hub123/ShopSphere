@@ -28,7 +28,7 @@ namespace ShopSphere.Tests
             // Act
             var product = catalog.GetById(1);
 
-            // Assert
+            // Assert 123
             Assert.NotNull(product);
             Assert.Equal("Mechanical Keyboard", product.Name);
         }
